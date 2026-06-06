@@ -4,7 +4,7 @@ import shutil
 from extractor import extract_content
 from classifier import classify
 
-DOWNLOADS = Path("downloads")
+DOWNLOADS = Path("downloads") #Change this to downloads folder you want to use
 SORTED = Path("sorted")
 
 DOWNLOADS.mkdir(exist_ok=True)
